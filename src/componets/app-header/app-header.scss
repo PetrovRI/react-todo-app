@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+
+    &__item {
+        color: grey;
+        margin-bottom: 10px;
+
+        &:first-child {
+            margin-right: 15px;
+        }
+    }
+}

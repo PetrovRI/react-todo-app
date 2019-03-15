@@ -1,0 +1,49 @@
+.done {
+   text-decoration: line-through;
+   color: grey;
+}
+
+.important {
+    color: #ffb31f;
+    font-weight: bold;
+}
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn--trash {
+    width: 35px;
+    border: 1px solid grey;
+}
+
+.btn--important {
+    width: 35px;
+    border: 1px solid grey;
+    margin-right: 10px;
+}
+
+.fa-trash-o {
+    color: grey;
+}
+
+.btn--trash:hover {
+    border: 1px solid red;
+}
+
+.btn--trash:hover > .fa-trash-o {
+    color: red;
+}
+
+.fa-star {
+    color: grey;
+}
+
+.btn--important:hover {
+    border: 1px solid #ffb31f;
+}
+
+.btn--important:hover > .fa-star {
+   color: #ffb31f;
+}

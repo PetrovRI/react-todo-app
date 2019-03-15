@@ -1,0 +1,29 @@
+.btn {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: grey;
+    outline: none;
+    cursor: pointer;
+
+    &--active {
+        color: #fff;
+        background-color: #ffb31f;
+        border: 1px solid #ffb31f;
+    }
+
+    &--status {
+        margin-right: 3px;
+
+        &:hover {
+            color: #fff;
+            background-color: #ffb31f;
+            border: 1px solid #ffb31f;
+        }
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+}
